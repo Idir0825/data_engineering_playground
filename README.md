@@ -12,7 +12,7 @@ The project is developed incrementally, with each stage introducing new concepts
 - SQL
 - Apache Spark
 - Apache Airflow
-- DataBricks
+- Databricks
 - Docker
 - dbt
 - Data Architecture
@@ -22,7 +22,9 @@ The project is developed incrementally, with each stage introducing new concepts
 
 - [x] Project initialization
 - [ ] Data ingestion with Spark
-- [ ] Data transformation and processing
+- [x] Data transformation and processing
+- [ ] Spark SQL
+- [ ] Spark optimization and partitioning
 - [ ] Workflow orchestration with Airflow
 - [ ] Containerization with Docker
 - [ ] Data modeling with dbt
@@ -53,6 +55,20 @@ data-engineering-portfolio/
 - Initialized the repository
 - Created the project structure
 - Started reviewing Apache Spark fundamentals
+
+### 2026-07-31
+
+- Practiced core PySpark DataFrame transformations
+- Worked with filtering, sorting, and derived columns
+- Used conditional transformations with when() and otherwise()
+- Practiced aggregations with groupBy() and agg()
+- Worked with inner joins and joins using different column names
+- Handled missing values and duplicate rows
+- Combined DataFrames using unionByName()
+- Worked with date transformations, filtering, and date differences
+- Practiced window functions with partitionBy() and orderBy()
+- Compared row_number(), rank(), and dense_rank()
+- Reviewed the difference between Spark transformations and actions
 
 ## Final Goal
 
