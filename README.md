@@ -70,6 +70,18 @@ data-engineering-portfolio/
 - Compared row_number(), rank(), and dense_rank()
 - Reviewed the difference between Spark transformations and actions
 
+### 2026-08-01
+
+- Continued practicing PySpark window functions
+- Used `lag()` to compare each transaction with the previous one
+- Calculated cumulative values with explicit window frames using `rowsBetween()`
+- Compared `rowsBetween()` with Spark's default range-based window behavior
+- Created temporary SQL views with `createOrReplaceTempView()`
+- Wrote a Spark SQL query using a CTE and `LAG()`
+- Practiced date casting, partitioning, ordering, and derived columns in Spark SQL
+- Compared the PySpark DataFrame API with Spark SQL
+
+
 ## Final Goal
 
 Build a production-inspired data platform following a modern Data Engineering workflow:
